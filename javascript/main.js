@@ -9,38 +9,46 @@ $(window).ready(function () {
     everyMonth(x);
 
     $('.last').click(function () {
-        x--;
-        console.log(x);
-        if(x<0){
-            alert("这是第一个");
-            x=0;
-        }else{
-            $('.t1 td').remove();
-            $('.t2 td').remove();
-            $('.t3 td').remove();
-            $('.t4 td').remove();
-            $('.t5 td').remove();
-            $('.t6 td').remove();
-            everyMonth(x);
-        }
+        $('.calendar').animate({opacity: 0},200);
+        setTimeout(function () {
+            $('.calendar').animate({opacity: 1},200);
+            x--;
+            console.log(x);
+            if(x<0){
+                alert("这是第一个");
+                x=0;
+            }else{
+                $('.t1 td').remove();
+                $('.t2 td').remove();
+                $('.t3 td').remove();
+                $('.t4 td').remove();
+                $('.t5 td').remove();
+                $('.t6 td').remove();
+                everyMonth(x);
+            }
+        },200);
+
 
     });
     $('.next').click(function () {
-        x++;
-        console.log(x);
-        if(x>5){
-            alert("这是最后一个");
-            x=5;
-        }else{
-            $('.t1 td').remove();
-            $('.t2 td').remove();
-            $('.t3 td').remove();
-            $('.t4 td').remove();
-            $('.t5 td').remove();
-            $('.t6 td').remove();
-            everyMonth(x);
-        }
-
+        $('.calendar').animate({opacity: 0},200);
+        setTimeout(function () {
+            $('.calendar').animate({opacity: 1},200);
+            x++;
+            console.log(x);
+            if(x>5){
+                alert("这是最后一个");
+                x=5;
+            }else{
+                $('.t1 td').remove();
+                $('.t2 td').remove();
+                $('.t3 td').remove();
+                $('.t4 td').remove();
+                $('.t5 td').remove();
+                $('.t6 td').remove();
+                everyMonth(x);
+            }
+        },200);
     });
 
 
