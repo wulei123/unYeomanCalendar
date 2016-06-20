@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a1abb4-2224-4822-9279-2df90c361fbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/month.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/main.js" afterPath="$PROJECT_DIR$/javascript/main.js" />
     </list>
     <ignored path="unYeomanCalendar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="month.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="month.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/month.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
@@ -63,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+            <state relative-caret-position="622">
+              <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -93,9 +89,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/javascript/month.js" />
-        <option value="$PROJECT_DIR$/javascript/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/main.css" />
+        <option value="$PROJECT_DIR$/javascript/main.js" />
       </list>
     </option>
   </component>
@@ -240,15 +236,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1466423325985</updated>
-      <workItem from="1466423327313" duration="14078000" />
+      <workItem from="1466423327313" duration="14426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14078000" />
+    <option name="totallyTimeSpent" value="14426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1506" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1506" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16485013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -289,16 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -311,6 +297,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>

@@ -73,42 +73,42 @@ else if(x==5)
 
             if(t==1){
                 if(MONTH[x][i]==0)
-                    $('.t1').append("<td><p class='bk'>"+" "+"</p></td>");
+                    $('.t1').append("<td>"+" "+"</td>");
                 else
                     $('.t1').append("<td><p class='bk'>"+MONTH[x][i]+"</p></td>");
             }
 
             else if(t==2){
                 if(MONTH[x][i]==0)
-                    $('.t2').append("<td><p class='bk'>"+" "+"</p></td>");
+                    $('.t2').append("<td>"+" "+"</td>");
                 else
                     $('.t2').append("<td><p class='bk'>"+MONTH[x][i]+"</p></td>");
             }
 
             else if(t==3){
                 if(MONTH[x][i]==0)
-                    $('.t3').append("<td><p class='bk'>"+" "+"</p></td>");
+                    $('.t3').append("<td>"+" "+"</td>");
                 else
                     $('.t3').append("<td><p class='bk'>"+MONTH[x][i]+"</p></td>");
             }
 
             else if(t==4){
                 if(MONTH[x][i]==0)
-                    $('.t4').append("<td><p class='bk'>"+" "+"</p></td>");
+                    $('.t4').append("<td>"+" "+"</td>");
                 else
                     $('.t4').append("<td><p class='bk'>"+MONTH[x][i]+"</p></td>");
             }
 
             else if(t==5){
                 if(MONTH[x][i]==0)
-                    $('.t5').append("<td><p class='bk'>"+" "+"</p></td>");
+                    $('.t5').append("<td>"+" "+"</td>");
                 else
                     $('.t5').append("<td><p class='bk'>"+MONTH[x][i]+"</p></td>");
             }
 
             else if(t==6){
                 if(MONTH[x][i]==0)
-                    $('.t6').append("<td><p class='bk'>"+" "+"</p></td>");
+                    $('.t6').append("<td>"+" "+"</td>");
                 else
                     $('.t6').append("<td><p class='bk'>"+MONTH[x][i]+"</p></td>");
             }
