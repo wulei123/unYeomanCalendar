@@ -25,9 +25,6 @@ $(window).ready(function () {
     everyMonth(0);
 
     $('.last').click(function () {
-        $('.calendar').animate({opacity: 0},100);
-        setTimeout(function () {
-
             $('.calendar').animate({opacity: 1},100);
             x--;
             console.log(x);
@@ -35,7 +32,6 @@ $(window).ready(function () {
                 $('.h1').text('这是第一个');
                 x=0;
             }else{
-
                 $('td p').removeClass("P-click");
                 $('tr td p').removeClass('P-hidden');
                 $('.youke').remove();
@@ -45,15 +41,11 @@ $(window).ready(function () {
                 $('.h1').text('石油大学的每一天');
                 everyMonth(x);
             }
-        },200);
 
 
     });
     $('.next').click(function () {
-        $('.calendar').animate({opacity: 0},100);
-        setTimeout(function () {
-            $('.calendar').animate({opacity: 1},100);
-            x++;
+
             console.log(x);
             if(x>5){
                 $('.h1').text('这是最后一个');
@@ -68,14 +60,10 @@ $(window).ready(function () {
                 $('.h1').text('石油大学的每一天');
                 everyMonth(x);
             }
-        },200);
     });
 
     $('tr td p').on("click",function () {
-        $('.week,.data,.work,.h1').animate({opacity: 0},210);
-        setTimeout(function () {
-            $('.week,.data,.work,.h1').animate({opacity: 1},200);
-        },200);
+
         var i = $(this).parent('td').index()+($(this).parent('td').parent('tr').index()-2)*7;
         $('.youke').remove();
         console.log("呵呵"+i);

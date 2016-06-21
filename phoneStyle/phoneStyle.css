@@ -191,7 +191,7 @@ td:hover .bk{
 .week{
     margin-top:5%;
     color: white;
-    font-size:10px;
+    font-size:5px;
     margin-left:auto;
     margin-left:auto;
     text-align: center;
@@ -208,7 +208,7 @@ td:hover .bk{
 .work{
     margin-top:5%;
     color: white;
-    font-size:10px;
+    font-size:5px;
     margin-left:auto;
     margin-left:auto;
     text-align: center;
@@ -218,7 +218,7 @@ td:hover .bk{
 
 .youke{
 
-    font-size:7px;
+    font-size:5px;
     text-align: left;
     margin-left:10%;
 }
