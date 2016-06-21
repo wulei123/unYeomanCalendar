@@ -9,15 +9,15 @@ html,body,.background{
 .background{
 
     position: fixed;
-
+    top:0;
     background:gainsboro;
 }
 .tableOut{
     position: relative;
     z-index: 0;
     background: white;
-    margin-top:10%;
-    margin-bottom:10%;
+    margin-top:5%;
+    margin-bottom:0;
     margin-left: auto;
     margin-right:auto;
     width:100%;
