@@ -203,8 +203,14 @@ td:hover .bk{
     text-align: center;
     width:100%;
 }
-.youke{
-    text-align: left;
-    margin-left:10%;
-}
+
+
+    .youke{
+
+        font-size:15px;
+        text-align: left;
+        margin-left:10%;
+    }
+
+
 
