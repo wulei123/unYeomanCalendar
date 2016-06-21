@@ -5,8 +5,15 @@ $(window).ready(function () {
     var w = $('.background').width();
     $('.background').height(0.5625*w);
     $('.background').width(w);
-    var I=0;
-    var J=0;
+
+    var haveClass = "<div class='youke'> " +
+        "上午:               <br>"+
+        "第一节课：08:00~09:50<br>" +
+        "第二节课：10:10~12:00<br>" +
+        "下午:<br>"+
+        "第三节课：14:00~15:50<br>" +
+        "第四节课：16:00~18:00<br>" +
+        "</div>"
     var x=0;
     everyMonth(0);
 
@@ -24,8 +31,11 @@ $(window).ready(function () {
 
                 $('td p').removeClass("P-click");
                 $('tr td p').removeClass('P-hidden');
+                $('.youke').remove();
                 $('.week').text('每天在改变');
                 $('.data').text('UPC');
+                $('.work').text('');
+                $('.h1').text('石油大学的每一天');
                 everyMonth(x);
             }
         },200);
@@ -44,28 +54,47 @@ $(window).ready(function () {
             }else{
                 $('td p').removeClass("P-click");
                 $('tr td p').removeClass('P-hidden');
+                $('.youke').remove();
                 $('.week').text('每天在改变');
                 $('.data').text('UPC');
+                $('.work').text('');
+                $('.h1').text('石油大学的每一天');
                 everyMonth(x);
             }
         },200);
     });
 
        $('tr td p').on("click",function () {
-           $('.week,.data').animate({opacity: 0},210);
+           $('.week,.data,.work,.h1').animate({opacity: 0},210);
            setTimeout(function () {
-               $('.week,.data').animate({opacity: 1},200);
+               $('.week,.data,.work,.h1').animate({opacity: 1},200);
            },200);
                var i = $(this).parent('td').index()+($(this).parent('td').parent('tr').index()-2)*7;
-               console.log(i);
+           $('.youke').remove();
+               console.log("呵呵"+i);
                console.log($(this).parent('td').index());
                console.log($(this).parent('td').parent('tr').index());
-
                $('td p').removeClass("P-click");
                $(this).addClass('P-click');
                week = whichWeek(x,i);
                $('.week').text("这是第"+week+"周");
                $('.data').text(MONTH[x][i]);
+           if(WORK[x][i]==0){
+               $('.h1').text('有课吧。。。');
+               $('.work').text('上课时间：');
+               $('.work').append(haveClass);
+           }else if(WORK[x][i]==1){
+               $('.h1').text('中秋快乐');
+               $('.work').text("Have Fun!");
+           }else if(WORK[x][i]==2){
+               $('.h1').text('国庆快乐');
+               $('.work').text("Have Fun!");
+           }else if(WORK[x][i]==3){
+               $('.h1').text('元旦快乐');
+           }else if(WORK[x][i]==9){
+               $('.h1').text('寒假啦！');
+               $('.work').text("Have Fun!");
+           }
 
        });
 
