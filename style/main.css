@@ -50,6 +50,15 @@ html,body,.background{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     box-shadow: 0px 10px 50px rgba(255,100,100,1);
+    font-family:"微软雅黑 Light";
+}
+.h1{
+    color: white;
+    font-size:40px;
+    margin-left:auto;
+    margin-left:auto;
+    text-align: center;
+    width:100%;
 }
 tr,p{
     -webkit-transition: all 0.3s;
@@ -115,7 +124,7 @@ tr td:nth-child(7):hover{
     color: white;
 }
 
-p{
+.bk{
     overflow: visible;
     padding-top: 10px;
     margin-left: auto;
@@ -124,7 +133,28 @@ p{
     margin-bottom:0;;
     height:30px;
     width:40px;
-
+    border-radius: 20px;
+}
+.last p{
+    overflow: visible;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;;
+    height:30px;
+    width:40px;
+    border-radius: 20px;
+}
+.next p{
+    overflow: visible;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;;
+    height:30px;
+    width:40px;
     border-radius: 20px;
 }
 .last:hover p {
@@ -136,9 +166,32 @@ p{
     color:white;
     background:rgba(255,100,100,1) ;
 }
-td:hover p{
-
+td:hover .bk{
     background:rgba(255,100,100,1) ;
 }
+.P-click{
+    background:rgba(255,100,100,1) ;
+    color: white;
+}
+.P-hidden{
+    display: none;
+}
 
+.week{
+    margin-top:5%;
+    color: white;
+    font-size:20px;
+    margin-left:auto;
+    margin-left:auto;
+    text-align: center;
+    width:100%;
+}
+.data{
+    color: white;
+    font-size:140px;
+    margin-left:auto;
+    margin-left:auto;
+    text-align: center;
+    width:100%;
+}
 
