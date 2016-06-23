@@ -4,7 +4,9 @@ html,body,.background{
     height:100%;
     width:100%;
 }
-
+body{
+	overflow:scroll;
+}
 
 .background{
     

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80a1abb4-2224-4822-9279-2df90c361fbd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneJs/main.js" afterPath="$PROJECT_DIR$/phoneJs/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneStyle/phoneStyle.css" afterPath="$PROJECT_DIR$/phoneStyle/phoneStyle.css" />
-    </list>
+    <list default="true" id="80a1abb4-2224-4822-9279-2df90c361fbd" name="Default" comment="" />
     <ignored path="unYeomanCalendar.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -325,16 +321,16 @@
       <workItem from="1466423327313" duration="15822000" />
       <workItem from="1466462280428" duration="18524000" />
       <workItem from="1466482013015" duration="875000" />
-      <workItem from="1466483003972" duration="31000" />
+      <workItem from="1466483003972" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35252000" />
+    <option name="totallyTimeSpent" value="35290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1931" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1931" height="1047" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16481775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

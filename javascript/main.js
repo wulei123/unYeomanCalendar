@@ -4,11 +4,13 @@
 $(window).ready(function () {
     if($('.background').width()< $('.background').height()){
         window.location.href = "phoneCalendar.html";
-    }else{
+    }/*
+	else{
         var w = $('.background').width();
         $('.background').height(0.5625*w);
         $('.background').width(w);
     }
+	*/
 
     var haveClass = "<div class='youke'> " +
         "上午:               <br>"+
