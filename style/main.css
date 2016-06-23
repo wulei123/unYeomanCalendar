@@ -6,11 +6,11 @@ html,body,.background{
 }
 body{
 	overflow:scroll;
+	background:gainsboro;
 }
 
 .background{
     
-    position: fixed;
 
     background:gainsboro;
 }
@@ -22,8 +22,8 @@ body{
     margin-bottom:10%;
     margin-left: auto;
     margin-right:auto;
-    width:60%;
-    height:60%;
+    width:960px;
+    height:540px;
     border-radius:  3px;
 
     box-shadow: 0px 0px 20px rgba(210,210,210,1);
